@@ -78,3 +78,6 @@ set ::env(RT_MAX_LAYER) {met4}
 
 # MAGIC_DEF_LABELS may cause issues with LVS
 set ::env(MAGIC_DEF_LABELS) 0
+
+# Only export pin area in LEF (without any connected nets)
+set ::env(MAGIC_WRITE_LEF_PINONLY) 1

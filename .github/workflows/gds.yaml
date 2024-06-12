@@ -17,7 +17,7 @@ jobs:
         uses: TinyTapeout/tt-gds-action@tt08
         with:
           flow: openlane2
-  
+
   precheck:
     needs: gds
     runs-on: ubuntu-latest
